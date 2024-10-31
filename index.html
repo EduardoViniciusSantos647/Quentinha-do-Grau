@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quentinhas do Grau</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Quentinhas do Grau</h1>
+            <nav>
+                <ul>
+                    <li><a href="sobrenos.html">Sobre Nós</a></li>
+                    <li><a href="contatos.html">Contato</a></li>
+                    <li><a href="#almoco">Almoço</a></li>
+                    <li><a href="#jantar">Jantar</a></li>
+                    <li><a href="#bebidas">Bebidas</a></li>
+                    <li><a href="#sobremesas">Sobremesas</a></li>
+                    <li><a href="#carrinho">Carrinho</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="almoco" class="menu-section">
+                <h2>Almoço</h2>
+                <div class="menu-item">
+                    <img src="https://as1.ftcdn.net/v2/jpg/04/52/02/32/1000_F_452023294_GGha6a7JWrCz6pIJ8uAvtCa8VpiaySGy.jpg"
+                        alt="Arroz com Frango">
+                    <h3>Arroz com Frango</h3>
+                    <p>Delicioso prato com arroz soltinho e frango grelhado.</p>
+                    <button onclick="adicionarAoCarrinho('Arroz com Frango', 15)">Adicionar - R$15,00</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://th.bing.com/th/id/R.0a8493d1d8a680371e4f96255a06cf16?rik=ST7%2b6rQfRtpMXA&pid=ImgRaw&r=0"
+                        alt="Macarrão à Bolonhesa">
+                    <h3>Macarrão ao alho</h3>
+                    <p>Macarrão coberto com molho de alho.</p>
+                    <button onclick="adicionarAoCarrinho('Macarrão ao alho', 20)">Adicionar - R$20,00</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://th.bing.com/th/id/OIP.sFU1qIbwWMUMhC1XHuq7nwHaE8?rs=1&pid=ImgDetMain"
+                        alt="Picanha ">
+                    <h3>Picanha </h3>
+                    <p> Picanha suculenta. </p>
+                    <button onclick="adicionarAoCarrinho('Picanha com Farofa', 25)">Adicionar - R$25,00</button>
+                </div>
+
+                <div class="menu-item">
+                    <img src="https://uploads.metropoles.com/wp-content/uploads/2022/02/17174324/feijoada-do-vegan-se-1024x683.jpg"
+                        alt="Feijoada">
+                    <h3>Feijoada</h3>
+                    <p>Feijoada tradicional com carnes variadas e arroz.</p>
+                    <button onclick="adicionarAoCarrinho('Feijoada', 30)">Adicionar - R$30,00</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://th.bing.com/th/id/R.fe2486714c258e0fc9263be2a0677c07?rik=GDS%2bHK9LdooIHw&pid=ImgRaw&r=0"
+                        alt="Bife à Milanesa">
+                    <h3>Bife acebolado</h3>
+                    <p>Bife com cebola e saboroso.</p>
+                    <button onclick="adicionarAoCarrinho('Bife à Milanesa', 22)">Adicionar - R$22,00</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://th.bing.com/th/id/OIP.Niq5HMZIcN8ohZuIUK2HywHaEv?rs=1&pid=ImgDetMain"alt="Pirão">
+                    <h3>Pirão</h3>
+                    <p>Pirão bastante suculento.</p>
+                    <button onclick="adicionarAoCarrinho('Tutu de Feijão', 18)">Adicionar - R$18,00</button>
+                </div>
+            </section>
+
+            <section id="jantar" class="menu-section">
+                <h2>Jantar</h2>
+                <div class="menu-item">
+                    <img src="https://th.bing.com/th/id/OIP.aoxx7PL1VlUWMQO8T9o6FwHaE8?rs=1&pid=ImgDetMain"
+                        alt="Risoto de Camarão">
+                    <h3>Risoto de Camarão</h3>
+                    <p>Risoto cremoso com camarões frescos e temperos especiais.</p>
+                    <button onclick="adicionarAoCarrinho('Risoto de Camarão', 35)">Adicionar - R$35,00</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://th.bing.com/th/id/R.e0d5c9c764877380780496be14ffea2a?rik=eP%2f%2fdU1MBemPXA&pid=ImgRaw&r=0"
+                        alt="Lasanha de Frango">
+                    <h3>Lasanha de frango</h3>
+                    <p>Lasanha recheada com frango e queijos.</p>
+                    <button onclick="adicionarAoCarrinho('Lasanha de Frango', 30)">Adicionar - R$30,00</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://th.bing.com/th/id/OIP.DV5OyvftCCnY2EAh3Qvg8AHaE7?rs=1&pid=ImgDetMain"
+                        alt="Cuzcuz">
+                    <h3>Cuscuz</h3>
+                    <p> Cada garfada traz uma sensação de aconchego.</p>
+                    <button onclick="adicionarAoCarrinho('Cuscuz', 12)">Adicionar - R$12,00</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://losofoodie.com/wp-content/uploads/low-sodium-butter-chicken-card.jpg" alt="Frango ao Curry">
+                    <h3>Frango ao Curry</h3>
+                    <p>Frango preparado com curry e leite de coco.</p>
+                    <button onclick="adicionarAoCarrinho('Frango ao Curry', 28)">Adicionar - R$28,00</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://th.bing.com/th/id/R.5eb2d7e8e35d1843c39770112b5a2a41?rik=FYRh4W9Cp0AeuA&pid=ImgRaw&r=0"alt="Camarão ao Alho">
+                    <h3>Camarão ao Alho</h3>
+                    <p>Camarões salteados com alho e ervas.</p>
+                    <button onclick="adicionarAoCarrinho('Camarão ao Alho', 32)">Adicionar - R$32,00</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://th.bing.com/th/id/OIP.rHYUZK73_nw3RCE12-6A2gHaE7?rs=1&pid=ImgDetMain"alt="Bacalhau à Brás">
+                    <h3>Bacalhau </h3>
+                    <p>Bacalhau desfiado com batatas e ovos.</p>
+                    <button onclick="adicionarAoCarrinho('Bacalhau ', 45)">Adicionar - R$45,00</button>
+                </div>
+            </section>
+
+            <section id="bebidas" class="menu-section">
+                <h2>Bebidas</h2>
+                <div class="menu-item">
+                    <img src="https://th.bing.com/th/id/OIP.Hs5Tev-32F3RIGYjEdTofwHaGN?rs=1&pid=ImgDetMain"
+                        alt="Corote">
+                    <h3>Corote</h3>
+                    <p>Bebida alcoólica saborosa e refrescante.</p>
+                    <button onclick="adicionarAoCarrinho('Corote', 10)">Adicionar - R$10,00</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://ibassets.com.br/ib.item.image.big/b-2593ee9160654589bd7cf95727e95336.jpeg"
+                        alt="Cha Gelado">
+                    <h3>Chá Gelado</h3>
+                    <p>Chá leve e refrescante, ideal para qualquer ocasião.</p>
+                    <button onclick="adicionarAoCarrinho('Budweiser', 15)">Adicionar - R$15,00</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://th.bing.com/th/id/OIP.MFvelwkRjkc4hCIceL877wHaFj?rs=1&pid=ImgDetMain"
+                        alt="Budweiser">
+                    <h3>Budweiser</h3>
+                    <p>Cerveja leve e refrescante, ideal para qualquer ocasião.</p>
+                    <button onclick="adicionarAoCarrinho('Budweiser', 15)">Adicionar - R$15,00</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://th.bing.com/th/id/OIP.JTC6dluoiZ3jyAVHy5P3EwHaHa?rs=1&pid=ImgDetMain" alt="Guaraná Antártica">
+                    <h3>Guaraná Antártica</h3>
+                    <p>Refrigerante refrescante com sabor de guaraná.</p>
+                    <button onclick="adicionarAoCarrinho('Guaraná Antártica', 8)">Adicionar - R$8,00</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_987064-MLB49763020917_042022-F.jpg" alt="Cachaça 51">
+                    <h3>Red label </h3>
+                    <p> Tradicional, perfeita para altas aventuras.</p>
+                    <button onclick="adicionarAoCarrinho('Cachaça 51', 20)">Adicionar - R$20,00</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://www.varanda.com.br/media/catalog/product/cache/1/image/1200x/9df78eab33525d08d6e5fb8d27136e95/a/g/agua-mineral-crystal-500ml-7894900530001.jpg" alt="Água Mineral">
+                    <h3>Água Mineral</h3>
+                    <p>Água mineral natural, perfeita para acompanhar suas refeições.</p>
+                    <button onclick="adicionarAoCarrinho('Água Mineral', 5)">Adicionar - R$5,00</button>
+                </div>
+            </section>
+
+            <section id="sobremesas" class="menu-section">
+                <h2>Sobremesas</h2>
+                <div class="menu-item">
+                    <img src="https://th.bing.com/th/id/OIP.YVJp3s1YD5LCEg6YjK-wCwHaEk?rs=1&pid=ImgDetMain" alt="Pudim">
+                    <h3>Pudim</h3>
+                    <p>Clássico pudim de leite condensado.</p>
+                    <button onclick="adicionarAoCarrinho('Pudim', 8)">Adicionar - R$8,00</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://th.bing.com/th/id/OIP.vBnNWgJghlnIq-G90shNIwHaHa?rs=1&pid=ImgDetMain"alt="Torta de Maçã">
+                    <h3>Torta de Maçã</h3>
+                    <p>Torta refrescante de Maçã .</p>
+                    <button onclick="adicionarAoCarrinho('Torta de Maçã', 10)">Adicionar - R$10,00</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://th.bing.com/th/id/R.f44d2d3a4602920c1c46bcffb1fcb276?rik=seIajUl1zFBIrQ&pid=ImgRaw&r=0" alt="Bolo de Morango">
+                    <h3>Bolo de Chocolate</h3>
+                    <p>Delicioso bolo de Morango.</p>
+                    <button onclick="adicionarAoCarrinho('Bolo de Morango', 12)">Adicionar - R$12,00</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://th.bing.com/th/id/OIP.zHZSmOf_X06ureBt84A-DgAAAA?rs=1&pid=ImgDetMain"  alt="Gelado de Baunilha">
+                    <h3>Gelado de Baunilha</h3>
+                    <p>Gelado cremoso de baunilha, perfeito para refrescar.</p>
+                    <button onclick="adicionarAoCarrinho('Gelado de Baunilha', 9)">Adicionar - R$9,00</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://th.bing.com/th/id/R.aca64f2a78e6e8bf071e1b5e15ad3f73?rik=mDKgiVzkqAtneQ&pid=ImgRaw&r=0"alt="Pavê de Chocolate">
+                    <h3>Pavê de Chocolate</h3>
+                    <p>Pavê cremoso de chocolate, uma verdadeira tentação.</p>
+                    <button onclick="adicionarAoCarrinho('Pavê de Chocolate', 15)">Adicionar - R$15,00</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://th.bing.com/th/id/R.9120813f694a8e6eb996e73e20949083?rik=T%2bT%2bgyU4PHZ%2fbg&pid=ImgRaw&r=0"
+                        alt="Torta de Morango">
+                    <h3>Torta de Morango</h3>
+                    <p>Torta deliciosa com morangos frescos.</p>
+                    <button onclick="adicionarAoCarrinho('Torta de Morango', 13)">Adicionar - R$13,00</button>
+                </div>
+            </section>
+            <section id="carrinho" class="cart-section">
+                <h2>Carrinho de Compras</h2>
+                <ul id="lista-carrinho"></ul>
+                <p>Total: R$<span id="total">0</span></p>
+            </section>
+
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Quentinhas do Grau</p>
+        </div>
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
